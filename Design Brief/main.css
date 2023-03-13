@@ -1,0 +1,163 @@
+body {
+	background: linear-gradient(#b954ae, #d084cc, #b954ae, #7d386f, #532446);
+	font-family: "Sono", sans-serif;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.container {
+	background-image: url("/media/header background.jpg");
+	position: fixed;
+	height: 100dvh;
+	width: 25%;
+	padding-right: 2rem;
+}
+
+.nav-bar {
+	text-align: right;
+	height: 50%;
+}
+ul li {
+	list-style: none;
+	color: white;
+	font-size: 3em;
+	font-family: "Sono", sans-serif;
+	cursor: pointer;
+	margin-bottom: 2rem;
+}
+
+li a {
+	text-decoration: none;
+}
+
+ul li a:visited {
+	color: white;
+}
+
+ul li:hover {
+	text-decoration: underline;
+}
+
+.contact-info {
+	height: 50%;
+	margin-top: 70%;
+	text-align: center;
+	color: orangered;
+	font-size: 1rem;
+}
+
+.main-container {
+	width: 75%;
+	margin-left: 25%;
+}
+
+h2 {
+	font-size: 3em;
+	color: white;
+}
+
+.card {
+	height: 500px;
+	width: 300px;
+	position: relative;
+	display: inline-block;
+	padding: 2rem;
+	margin: 4rem 2rem 0 2rem;
+	border: 1px solid black;
+	border-radius: 2em;
+	align-content: start;
+}
+
+.card-content {
+	text-align: center;
+	margin-top: 25rem;
+	font-size: 1rem;
+}
+
+.color1 {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	margin-left: 1rem;
+	border-radius: 50%;
+	background-color: rgb(235, 155, 52);
+}
+
+.color2 {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	margin-left: 1rem;
+	border-radius: 50%;
+	background-color: rgb(52, 235, 153);
+}
+
+.color3 {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	margin-left: 1rem;
+	border-radius: 50%;
+	background-color: rgb(235, 226, 52);
+}
+
+.sub-container {
+	margin-top: 4rem;
+	display: flex;
+}
+
+.sub-container > * {
+	width: 100%;
+}
+
+.font-card-content {
+	height: 75%;
+	font-size: 0.75rem;
+}
+
+.font-name {
+	font-size: 1.5em;
+	position: absolute;
+	margin-top: 2em;
+	margin-bottom: 0;
+}
+
+.rubik {
+	font-family: "Rubik Iso", cursive;
+}
+
+.climate {
+	font-family: "Climate Crisis", cursive;
+}
+
+.demo-header {
+	border: 3px solid black;
+	height: 200px;
+	grid-column: 1/5;
+}
+
+.demo-main {
+	border: 3px solid black;
+	grid-column: 1/3;
+	grid-row: 2/5;
+}
+
+.demo-nav {
+	grid-column: 3/5;
+	grid-row: 2;
+	border: 3px solid black;
+}
+
+.demo-aside {
+	border: 3px solid black;
+	grid-column: 3/5;
+	grid-row: 3/5;
+}
+
+.grid {
+	padding: 2em;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	gap: 1em;
+}
