@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="main.css" />
+		<title>Design Brief information</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="nav-bar">
+					<ul>
+						<li><a href="#color-scheme">Color Scheme</a></li>
+						<li><a href="#font-styles">Font Styles</a></li>
+						<li><a href="#layout">Layout</a></li>
+					</ul>
+				</div>
+				<div class="contact-info">
+					<p>Mobile: 07735218000</p>
+					<p>Email: stuart.design@gmail.com</p>
+					<p>
+						Github: hub.com/Waterbo1/waterbo1-github-io/blob/main/index.html
+					</p>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="main-container">
+				<h2 id="color-scheme">Color Scheme</h2>
+				<div class="card">
+					<div class="color1"></div>
+					<div class="card-content" class="color1">
+						<p>RGB: 235, 155, 52</p>
+						<p>HEX: #eb9b34</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="color2"></div>
+					<div class="card-content">
+						<p>RGB: 52, 235, 153</p>
+						<p>HEX: #34eb99</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="color3"></div>
+					<div class="card-content">
+						<p>RGB: 235, 226, 52</p>
+						<p>HEX: #ebe234</p>
+					</div>
+				</div>
+
+				<h2 id="font-styles">Font Styles</h2>
+				<div class="sub-container">
+					<div class="card">
+						<div class="font-card-content" class="sono">
+							<h1>Use our fonts to style your page</h1>
+							<h2>Use our fonts to style your page</h2>
+							<p>Use our fonts to style your page</p>
+
+							<p>Font name: Sono</p>
+						</div>
+					</div>
+					<div class="card">
+						<div class="font-card-content">
+							<h1 class="rubik">Use our fonts to style your page</h1>
+							<h2 class="rubik">Use our fonts to style your page</h2>
+							<p class="rubik">Use our fonts to style your page</p>
+
+							<p class="rubik">Font name: Rubik Iso</p>
+						</div>
+					</div>
+					<div class="card">
+						<div class="font-card-content">
+							<h1 class="climate">Use our fonts to style your page</h1>
+							<h2 class="climate">Use our fonts to style your page</h2>
+							<p>Use our fonts to style your page</p>
+
+							<p class="climate">Font name: Climate Crisis</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="sub-container2">
+					<h2 id="layout">Layouts</h2>
+					<div class="grid">
+						<div class="demo-header">
+							<h2>Header</h2>
+						</div>
+						<div class="demo-main">
+							<h2>Main</h2>
+						</div>
+						<div class="demo-nav">
+							<h2>Nav</h2>
+						</div>
+						<div class="demo-aside">
+							<h2>Aside</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer></footer>
+	</body>
+</html>
 
